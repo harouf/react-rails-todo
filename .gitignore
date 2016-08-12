@@ -1,0 +1,16 @@
+.DS_Store
+node_modules/
+npm-debug.log
+
+
+# Ignore bundler config.
+.bundle
+
+# Ignore the default SQLite database.
+backend/db/*.sqlite3
+backend/db/*.sqlite3-journal
+
+# Ignore all logfiles and tempfiles.
+backend/log/*
+!/log/.keep
+backend/tmp
